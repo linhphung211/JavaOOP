@@ -10,9 +10,9 @@ public class Employee extends person {
     {
         NhapThongTin();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap ma nhan vien: ");
+        System.out.print("Nhap ma nhan vien: ");
         mnv = sc.nextLine();
-        System.out.println("Nhap so ngay lam viec trong 1 thang: ");
+        System.out.print("Nhap so ngay lam viec trong 1 thang: ");
         ngay = sc.nextInt();
     }
     void XuatThongTinEmp()

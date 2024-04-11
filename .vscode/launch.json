@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sinhvien",
+      "request": "launch",
+      "mainClass": "Sinhvien",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide30",
+      "request": "launch",
+      "mainClass": "Slide30",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Nhanvien",
+      "request": "launch",
+      "mainClass": "Nhanvien",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Nhanvien.Main",

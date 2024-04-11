@@ -10,21 +10,21 @@ public class person {
     void NhapThongTin()
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap ho ten: ");
+        System.out.print("Nhap ho ten: ");
         hoten = sc.nextLine();
-        System.out.println("Nhap ngay sinh: ");
+        System.out.print("Nhap ngay sinh: ");
         ngaysinh = sc.nextLine();
-        System.out.println("Nhap que quan: ");
+        System.out.print("Nhap que quan: ");
         quequan = sc.nextLine();
-        System.out.println("Nhap gioi tinh: ");
+        System.out.print("Nhap gioi tinh: ");
         gioitinh = sc.nextLine();
     }
     void XuatThongTin()
     {
-        System.out.print("Ho ten nhan vien: " +hoten);
-        System.out.print("Ngay sinh:" +ngaysinh);
-        System.out.print("Que nhan vien: " +quequan);
-        System.out.print("Gioi tinh: " +gioitinh);
+        System.out.println("Ho ten nhan vien: " +hoten);
+        System.out.println("Ngay sinh:" +ngaysinh);
+        System.out.println("Que nhan vien: " +quequan);
+        System.out.println("Gioi tinh: " +gioitinh);
 
     }
 

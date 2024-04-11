@@ -18,12 +18,12 @@ public class EmployeeParttime extends Employee {
         sogio = sc.nextInt();
         if (sogio > 5) {
             luong = luongmoigio * sogio + 500000;
-            System.out.print("Luong thang la: " +luong+ " dong");
+            System.out.println("Luong thang la: " +luong+ " dong");
         }
         else
         {
             luong = luongmoigio * sogio;
-            System.out.print("Luong thang la: " +luong+ " dong");
+            System.out.println("Luong thang la: " +luong+ " dong");
         }
     }
 }
