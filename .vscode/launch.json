@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MainClass",
+      "request": "launch",
+      "mainClass": "main.MainClass",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "giaiphuongtrinhbac1",
+      "request": "launch",
+      "mainClass": "giaiphuongtrinhbac1",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
       "name": "Sinhvien",
       "request": "launch",
       "mainClass": "Sinhvien",
