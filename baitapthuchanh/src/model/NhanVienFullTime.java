@@ -14,7 +14,7 @@ public class NhanVienFullTime extends Nvien {
         this.ten = ten;
         this.ngayLamThem = ngayLamThem;
     }
-    public void setLoaiChucVu(loaiChucVu int)
+    public void setLoaiChucVu(int loaiChucVu )
     {
         this.loaiChucVu = loaiChucVu;
     }
@@ -25,10 +25,10 @@ public class NhanVienFullTime extends Nvien {
     }
     public void tinhLuong()
     {
-        if (loaiChucVu = config.NHAN_VIEN_SEP) {
+        if (loaiChucVu == config.NHAN_VIEN_SEP) {
             luong = config.LUONG_NHAN_VIEN_FULLTIME_SEP;
         }
-        else if (loaiChucVu = config.NHAN_VIEN_LINH) {
+        else if (loaiChucVu == config.NHAN_VIEN_LINH) {
             luong = config.LUONG_NHAN_VIEN_FULLTIME_LINH;
         }
     }

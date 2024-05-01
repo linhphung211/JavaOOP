@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "A6",
+      "request": "launch",
+      "mainClass": "A6",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "honda4",
+      "request": "launch",
+      "mainClass": "honda4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide90",
+      "request": "launch",
+      "mainClass": "Slide90",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
       "name": "MainClass",
       "request": "launch",
       "mainClass": "main.MainClass",

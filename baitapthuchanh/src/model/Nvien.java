@@ -8,7 +8,7 @@ public class Nvien {
     {
 
     }
-    public Nhanvien(string ten)
+    public Nhanvien(String ten)
     {
         this.ten = ten;
     }
@@ -16,7 +16,7 @@ public class Nvien {
     {
        return ""; 
     }
-    public xuatThongTin()
+    public void xuatThongTin()
     {
         System.out.println("Ho ten nhan vien");
         System.out.println("Loai nhan vien: " +loaiNhanVien());

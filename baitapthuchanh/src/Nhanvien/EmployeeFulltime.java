@@ -11,7 +11,7 @@ public class EmployeeFulltime extends Employee {
     }
     void Tinhluong()
     {
-        if (songay >= 25) {
+        if (ngay >= 25) {
             luong = luongmoigio *8 + 1000000;
             System.out.println("Luong thang la: " +luong+ " dong");
         }
