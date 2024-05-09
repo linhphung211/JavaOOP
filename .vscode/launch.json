@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Slide25Chuong4",
+      "request": "launch",
+      "mainClass": "Slide25Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide23Chuong4",
+      "request": "launch",
+      "mainClass": "Slide23Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
       "name": "A6",
       "request": "launch",
       "mainClass": "A6",
