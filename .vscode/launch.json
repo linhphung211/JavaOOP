@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Slide94Chuong4",
+      "request": "launch",
+      "mainClass": "Slide94Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide88Chuong4",
+      "request": "launch",
+      "mainClass": "Slide88Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide86Chuong4",
+      "request": "launch",
+      "mainClass": "Slide86Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide61Chuong4",
+      "request": "launch",
+      "mainClass": "Slide61Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide39Chuong4",
+      "request": "launch",
+      "mainClass": "Slide39Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Slide55Chuong4",
+      "request": "launch",
+      "mainClass": "Slide55Chuong4",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
       "name": "Slide25Chuong4",
       "request": "launch",
       "mainClass": "Slide25Chuong4",

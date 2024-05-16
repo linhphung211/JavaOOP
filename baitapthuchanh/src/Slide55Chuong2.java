@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Slide55 {
+public class Slide55Chuong2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         for(int i = 0 ; i <= 20 ; i++)
