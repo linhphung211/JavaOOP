@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Bai3",
+      "request": "launch",
+      "mainClass": "Bai3",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "DanhSachSinhVien",
+      "request": "launch",
+      "mainClass": "DanhSachSinhVien",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "StudentManagement",
+      "request": "launch",
+      "mainClass": "StudentManagement",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Bai2",
+      "request": "launch",
+      "mainClass": "Bai2",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
+      "name": "Bai1",
+      "request": "launch",
+      "mainClass": "Bai1",
+      "projectName": "BaiTapJava_8ea1ebe8"
+    },
+    {
+      "type": "java",
       "name": "Slide94Chuong4",
       "request": "launch",
       "mainClass": "Slide94Chuong4",
