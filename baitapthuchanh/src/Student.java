@@ -2,28 +2,50 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Student {
-    String FullName;
-    int Age;
+    private String FullName;
+    private int Age;
+    public Student (String FullName, int Age) 
+    {
+        this.FullName = FullName;
+        this.Age = Age;
+    }
+    public String getFullName()
+    {
+        return FullName;
+    }
+    public int getAge()
+    {
+        return Age;
+    }
+    public void setAge()
+    {
+        this.Age = Age;
+    }
+    public void setFullName()
+    {
+        this.FullName = FullName;
+    }
     public void NhapThongTin()
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap thong tin ho va ten: ");
+        System.out.println("Nhap ho ten: ");
         FullName = sc.nextLine();
         System.out.println("Nhap tuoi: ");
         Age = sc.nextInt();
     }
-    public void HienThiThongTin()
+    public void XuatThongTin()
     {
-        System.out.print("Ho ten ban la: " + FullName);
-        System.out.println("Tuoi cua ban la: " + Age);
+        System.out.print("Ho ten cua ban la: " + FullName);
+        System.out.print("Tuoi cua ban la: " + Age);
     }
     public void ThemMoiThongTin()
     {
-        
+        NhapThongTin();
     }
-    public void SuaThongTin()
+    public void SuaThongTin(String newFullName, int newAge)
     {
-
+        this.FullName = newFullName;
+        this.Age = newAge;
     }
     
 }
