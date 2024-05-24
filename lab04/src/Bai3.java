@@ -3,7 +3,7 @@ import java.util.Scanner;
 
  class Sinhvien {
     private String HoTen;
-    private static float diem;
+    private float diem;
 
     public Sinhvien(String HoTen, float diem)
     {
@@ -28,7 +28,7 @@ import java.util.Scanner;
     }
     @Override
     public String toString() {
-        return "Student{name='" + HoTen + "', score=" + diem + "}";
+        return "Student{Ho va ten =" + HoTen + "', diem =" + diem + "}";
     }
 }
 public class Bai3 {
@@ -106,7 +106,6 @@ public class Bai3 {
         System.out.print("Nhap ten sinh vien: ");
         String searchName = sc.nextLine();
         Quanlysinhvien.timKiemSinhVienTheoTen(searchName);
-
     }   
     
 }
